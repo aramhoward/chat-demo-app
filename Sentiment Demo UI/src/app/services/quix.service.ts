@@ -25,8 +25,8 @@ export class QuixService {
   /*~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-*/
   /*WORKING LOCALLY? UPDATE THESE!*/
   private workingLocally = false; // set to true if working locally
-  private token: string = ''; // Create a token in the Tokens menu and paste it here
-  public workspaceId: string = 'demo-chatappdemo-prod'; // Look in the URL for the Quix Portal your workspace ID is after 'workspace='
+  private token: string = 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ik1qVTBRVE01TmtJNVJqSTNOVEpFUlVSRFF6WXdRVFF4TjBSRk56SkNNekpFUWpBNFFqazBSUSJ9.eyJodHRwczovL3F1aXguYWkvb3JnX2lkIjoiYXJhbWhvd2FyZCIsImh0dHBzOi8vcXVpeC5haS9vd25lcl9pZCI6Imdvb2dsZS1vYXV0aDJ8MTEyMTkwOTg0NDk1OTI4MDc0NDczIiwiaHR0cHM6Ly9xdWl4LmFpL3Rva2VuX2lkIjoiOTZiZWJjNDUtMjFiZi00YjQ5LWJhNGUtM2ViYzJiNDNkMDA0IiwiaHR0cHM6Ly9xdWl4LmFpL2V4cCI6IjE3MDY2ODA4MDAiLCJodHRwczovL3F1aXguYWkvcm9sZXMiOiJhZG1pbiIsImlzcyI6Imh0dHBzOi8vYXV0aC5xdWl4LmFpLyIsInN1YiI6IkdkM3FsejZGVUQ5SDNqZmZwT3pOVlN2bXFFNENyb1lQQGNsaWVudHMiLCJhdWQiOiJxdWl4IiwiaWF0IjoxNjk3MDkwMDcxLCJleHAiOjE2OTk2ODIwNzEsImF6cCI6IkdkM3FsejZGVUQ5SDNqZmZwT3pOVlN2bXFFNENyb1lQIiwiZ3R5IjoiY2xpZW50LWNyZWRlbnRpYWxzIiwicGVybWlzc2lvbnMiOltdfQ.VfAKH-DaG8AA-F-PTh1fae41SsxyCcjTdNTZBXCnRBcJ3607_w_3RPDfvtbjCjfvZyJgssfB7Q1k_SoKZayv-cRjq3-zZaEDs3U54zYdNE5uFeh4gK9P6pH5JTQWpkoAjS9ch6HoAcAIqpQoaa7h1_jASMMHWmrP71zB5mJ4mBY3HoBBgDBuQRth2v5zfSlJUdwIC6HCDLExkTi9gm2wMbCrMmwCgSsM4NSfh9u88DhWwD3TxMfPEPcVip-JUFXYPM4mkgOcNp-OYxatzmz-O-6skfgvrir0A2pRod--Xx06IllDN1z7BpBtdUARpPMtNEKsRgCWKHsuPLrACTAdXg'; // Create a token in the Tokens menu and paste it here
+  public workspaceId: string = 'aramhoward-sentimentanalysisfortwit-f9563e65'; // Look in the URL for the Quix Portal your workspace ID is after 'workspace='
   public messagesTopic: string = 'chat-messages'; // get topic name from the Topics page
   public twitchMessagesTopic: string = 'twitch-messages'; // get topic name from the Topics page
   public draftsTopic: string = 'drafts'; // get topic from the Topics page
